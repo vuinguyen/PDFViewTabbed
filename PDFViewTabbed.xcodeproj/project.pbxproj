@@ -17,6 +17,7 @@
 		527BA9941EFC6F61004F6392 /* PDFViewCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */; };
 		527BA9971EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9951EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf */; };
 		52E9BB331F015D1B0050145B /* infoGuideSunfishEmpire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */; };
+		52E9BB391F01B05F0050145B /* WatermarkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9BB381F01B05F0050145B /* WatermarkPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDFViewCustom.xib; sourceTree = "<group>"; };
 		527BA9951EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Linear Regression Using R- An Introduction to Data Modeling.pdf"; sourceTree = "<group>"; };
 		52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = infoGuideSunfishEmpire.pdf; sourceTree = "<group>"; };
+		52E9BB381F01B05F0050145B /* WatermarkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermarkPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +68,15 @@
 		527BA97A1EFC6E13004F6392 /* PDFViewTabbed */ = {
 			isa = PBXGroup;
 			children = (
+				52E9BB361F01AAC40050145B /* Supporting Files */,
 				52E9BB341F015E850050145B /* Books */,
-				527BA97B1EFC6E13004F6392 /* AppDelegate.swift */,
 				527BA97D1EFC6E13004F6392 /* FirstViewController.swift */,
 				527BA97F1EFC6E13004F6392 /* SecondViewController.swift */,
 				527BA9811EFC6E13004F6392 /* Main.storyboard */,
-				527BA9841EFC6E14004F6392 /* Assets.xcassets */,
-				527BA9861EFC6E14004F6392 /* LaunchScreen.storyboard */,
-				527BA9891EFC6E14004F6392 /* Info.plist */,
 				527BA9911EFC6F49004F6392 /* PDFViewCustom.swift */,
 				527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */,
+				527BA9891EFC6E14004F6392 /* Info.plist */,
+				52E9BB381F01B05F0050145B /* WatermarkPage.swift */,
 			);
 			path = PDFViewTabbed;
 			sourceTree = "<group>";
@@ -95,6 +96,16 @@
 				52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */,
 			);
 			path = Books;
+			sourceTree = "<group>";
+		};
+		52E9BB361F01AAC40050145B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527BA9841EFC6E14004F6392 /* Assets.xcassets */,
+				527BA97B1EFC6E13004F6392 /* AppDelegate.swift */,
+				527BA9861EFC6E14004F6392 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				527BA97C1EFC6E13004F6392 /* AppDelegate.swift in Sources */,
 				527BA9921EFC6F49004F6392 /* PDFViewCustom.swift in Sources */,
 				527BA97E1EFC6E13004F6392 /* FirstViewController.swift in Sources */,
+				52E9BB391F01B05F0050145B /* WatermarkPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

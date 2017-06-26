@@ -11,7 +11,7 @@ import PDFKit
 
 @IBDesignable
 
-class PDFViewCustom: PDFView {
+class PDFViewCustom: PDFView, PDFDocumentDelegate {
 
     var pdfView : PDFView!
     var documentName : String?
@@ -34,32 +34,23 @@ class PDFViewCustom: PDFView {
   }
 
     func xibSetup() {
-     // pdfView = loadViewFromNib()
+      pdfView = loadViewFromNib()
 
-      let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
-       // let view: PDFView = nib.instantiate(withOwner: self, options: nil).first as! PDFView
-      pdfView = nib.instantiate(withOwner: self, options: nil).first as! PDFView        // use bounds not frame or it'll be offset
-        pdfView.frame = bounds
+      pdfView.frame = bounds
 
-        // Make the view stretch with containing view
-        pdfView.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+      // Make the view stretch with containing view
+      pdfView.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
 
-
-        // Adding custom subview on top of our view (over any custom drawing > see note below)
-      //self.documentName = "MNS-354327"
       if let documentURL = Bundle.main.url(forResource: self.documentName, withExtension: "pdf"),
-     let document = PDFDocument(url: documentURL),
-     let page = document.page(at: 0) {
+        let document = PDFDocument(url: documentURL),
+        let _ = document.page(at: 0) {
+      document.delegate = self
       pdfView?.document = document
-      //pdfView?.backgroundColor = .brown
       pdfView?.autoScales = true
-      //pdfView?.displaysAsBook = true
       pdfView?.displayMode = .singlePage
-      //pdfView?.displaysPageBreaks = true
       pdfView?.usePageViewController(true, withViewOptions: nil)
 
-        print("document is \(String(describing: documentName))")
+      print("document is \(String(describing: documentName))")
       print("Displaying our first PDF!")
       print("user can zoom in: \(String(describing: pdfView?.canZoomIn()))")
       print("user can zoom out: \(String(describing: pdfView?.canZoomOut()))")
@@ -73,15 +64,15 @@ class PDFViewCustom: PDFView {
     }
 
     func loadViewFromNib() -> PDFView! {
-    //func loadViewFromNib() -> UIView! {
-
       let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
-       // let view: PDFView = nib.instantiate(withOwner: self, options: nil).first as! PDFView
-        let view = nib.instantiate(withOwner: self, options: nil).first
-        //return view as! UIView
+      let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
+      let view = nib.instantiate(withOwner: self, options: nil).first
+      return view as! PDFView
+    }
 
-        return view as! PDFView
+    // PDFDocumentDelegate
+    func classForPage() -> AnyClass {
+        return WatermarkPage.self
     }
 
 }

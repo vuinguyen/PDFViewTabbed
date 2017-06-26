@@ -19,7 +19,6 @@ var pdfView: PDFViewCustom!
     self.pdfView = PDFViewCustom(documentName: documentName, frame: self.view.frame)
     self.view.addSubview(pdfView)
     print("finished first tab")
-    // Do any additional setup after loading the view, typically from a nib.
   }
 
   override func didReceiveMemoryWarning() {

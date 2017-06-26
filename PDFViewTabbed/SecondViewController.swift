@@ -10,7 +10,6 @@ import UIKit
 
 class SecondViewController: UIViewController {
  
-
   var pdfView: PDFViewCustom!
 
   override func viewDidLoad() {
@@ -27,7 +26,5 @@ class SecondViewController: UIViewController {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-
-
 }
 
