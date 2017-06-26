@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527BA97C1EFC6E13004F6392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA97B1EFC6E13004F6392 /* AppDelegate.swift */; };
+		527BA97E1EFC6E13004F6392 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA97D1EFC6E13004F6392 /* FirstViewController.swift */; };
+		527BA9801EFC6E13004F6392 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA97F1EFC6E13004F6392 /* SecondViewController.swift */; };
+		527BA9831EFC6E13004F6392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9811EFC6E13004F6392 /* Main.storyboard */; };
+		527BA9851EFC6E14004F6392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9841EFC6E14004F6392 /* Assets.xcassets */; };
+		527BA9881EFC6E14004F6392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9861EFC6E14004F6392 /* LaunchScreen.storyboard */; };
+		527BA9921EFC6F49004F6392 /* PDFViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BA9911EFC6F49004F6392 /* PDFViewCustom.swift */; };
+		527BA9941EFC6F61004F6392 /* PDFViewCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */; };
+		527BA9971EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 527BA9951EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf */; };
+		52E9BB331F015D1B0050145B /* infoGuideSunfishEmpire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		527BA9781EFC6E13004F6392 /* PDFViewTabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewTabbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527BA97B1EFC6E13004F6392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527BA97D1EFC6E13004F6392 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		527BA97F1EFC6E13004F6392 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		527BA9821EFC6E13004F6392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527BA9841EFC6E14004F6392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527BA9871EFC6E14004F6392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527BA9891EFC6E14004F6392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527BA9901EFC6E4F004F6392 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		527BA9911EFC6F49004F6392 /* PDFViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewCustom.swift; sourceTree = "<group>"; };
+		527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDFViewCustom.xib; sourceTree = "<group>"; };
+		527BA9951EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Linear Regression Using R- An Introduction to Data Modeling.pdf"; sourceTree = "<group>"; };
+		52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = infoGuideSunfishEmpire.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527BA9751EFC6E13004F6392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527BA96F1EFC6E13004F6392 = {
+			isa = PBXGroup;
+			children = (
+				527BA97A1EFC6E13004F6392 /* PDFViewTabbed */,
+				527BA9791EFC6E13004F6392 /* Products */,
+				527BA98F1EFC6E4F004F6392 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		527BA9791EFC6E13004F6392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527BA9781EFC6E13004F6392 /* PDFViewTabbed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527BA97A1EFC6E13004F6392 /* PDFViewTabbed */ = {
+			isa = PBXGroup;
+			children = (
+				52E9BB341F015E850050145B /* Books */,
+				527BA97B1EFC6E13004F6392 /* AppDelegate.swift */,
+				527BA97D1EFC6E13004F6392 /* FirstViewController.swift */,
+				527BA97F1EFC6E13004F6392 /* SecondViewController.swift */,
+				527BA9811EFC6E13004F6392 /* Main.storyboard */,
+				527BA9841EFC6E14004F6392 /* Assets.xcassets */,
+				527BA9861EFC6E14004F6392 /* LaunchScreen.storyboard */,
+				527BA9891EFC6E14004F6392 /* Info.plist */,
+				527BA9911EFC6F49004F6392 /* PDFViewCustom.swift */,
+				527BA9931EFC6F61004F6392 /* PDFViewCustom.xib */,
+			);
+			path = PDFViewTabbed;
+			sourceTree = "<group>";
+		};
+		527BA98F1EFC6E4F004F6392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527BA9901EFC6E4F004F6392 /* PDFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52E9BB341F015E850050145B /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				527BA9951EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf */,
+				52E9BB321F015D1B0050145B /* infoGuideSunfishEmpire.pdf */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527BA9771EFC6E13004F6392 /* PDFViewTabbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527BA98C1EFC6E14004F6392 /* Build configuration list for PBXNativeTarget "PDFViewTabbed" */;
+			buildPhases = (
+				527BA9741EFC6E13004F6392 /* Sources */,
+				527BA9751EFC6E13004F6392 /* Frameworks */,
+				527BA9761EFC6E13004F6392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewTabbed;
+			productName = PDFViewTabbed;
+			productReference = 527BA9781EFC6E13004F6392 /* PDFViewTabbed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527BA9701EFC6E13004F6392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sunfish Empire";
+				TargetAttributes = {
+					527BA9771EFC6E13004F6392 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 527BA9731EFC6E13004F6392 /* Build configuration list for PBXProject "PDFViewTabbed" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527BA96F1EFC6E13004F6392;
+			productRefGroup = 527BA9791EFC6E13004F6392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527BA9771EFC6E13004F6392 /* PDFViewTabbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527BA9761EFC6E13004F6392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9BB331F015D1B0050145B /* infoGuideSunfishEmpire.pdf in Resources */,
+				527BA9881EFC6E14004F6392 /* LaunchScreen.storyboard in Resources */,
+				527BA9851EFC6E14004F6392 /* Assets.xcassets in Resources */,
+				527BA9941EFC6F61004F6392 /* PDFViewCustom.xib in Resources */,
+				527BA9971EFC718A004F6392 /* Linear Regression Using R- An Introduction to Data Modeling.pdf in Resources */,
+				527BA9831EFC6E13004F6392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527BA9741EFC6E13004F6392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527BA9801EFC6E13004F6392 /* SecondViewController.swift in Sources */,
+				527BA97C1EFC6E13004F6392 /* AppDelegate.swift in Sources */,
+				527BA9921EFC6F49004F6392 /* PDFViewCustom.swift in Sources */,
+				527BA97E1EFC6E13004F6392 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		527BA9811EFC6E13004F6392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527BA9821EFC6E13004F6392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527BA9861EFC6E14004F6392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527BA9871EFC6E14004F6392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527BA98A1EFC6E14004F6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527BA98B1EFC6E14004F6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527BA98D1EFC6E14004F6392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = PDFViewTabbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.PDFViewTabbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527BA98E1EFC6E14004F6392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = PDFViewTabbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunfishempire.PDFViewTabbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527BA9731EFC6E13004F6392 /* Build configuration list for PBXProject "PDFViewTabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527BA98A1EFC6E14004F6392 /* Debug */,
+				527BA98B1EFC6E14004F6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527BA98C1EFC6E14004F6392 /* Build configuration list for PBXNativeTarget "PDFViewTabbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527BA98D1EFC6E14004F6392 /* Debug */,
+				527BA98E1EFC6E14004F6392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527BA9701EFC6E13004F6392 /* Project object */;
+}
